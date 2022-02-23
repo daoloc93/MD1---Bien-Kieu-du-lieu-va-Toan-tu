@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm tổng và điểm trung bình</title>
+</head>
+<body>
+<script>
+
+    vatLy = parseInt(prompt("Nhập điểm Vật lý:"));
+    hoaHoc = parseInt(prompt("Nhập điểm Hóa học:"));
+    sinhHoc = parseInt(prompt("Nhập điểm Sinh học:"));
+    let diemTrungBinh = (vatLy + hoaHoc + sinhHoc)/3;
+    let tong = vatLy + hoaHoc + sinhHoc;
+
+    document.write("Điểm trung bình: " + diemTrungBinh);
+    document.write("<br/>");
+    document.write("Tổng điểm: " + tong);
+</script>
+</body>
+</html>
